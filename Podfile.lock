@@ -1,0 +1,12 @@
+PODS:
+  - Cedar (1.0)
+
+DEPENDENCIES:
+  - Cedar
+
+SPEC CHECKSUMS:
+  Cedar: a641e5ed0353bd9d45782ce365d0822b7342cce3
+
+PODFILE CHECKSUM: 77a0deefc5ffa1a183ac807fb943bbb9607b3b42
+
+COCOAPODS: 1.0.0.beta.8
