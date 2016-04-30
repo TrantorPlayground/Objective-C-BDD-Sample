@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		510801DE1CD465C400D28C19 /* MudSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 510801DD1CD465C400D28C19 /* MudSpec.mm */; };
 		518A0B7D1CD46462003E33BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 518A0B7C1CD46462003E33BF /* main.m */; };
 		518A0B801CD46462003E33BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 518A0B7F1CD46462003E33BF /* AppDelegate.m */; };
 		518A0B831CD46462003E33BF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 518A0B821CD46462003E33BF /* FirstViewController.m */; };
@@ -16,6 +15,12 @@
 		518A0B8B1CD46462003E33BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518A0B8A1CD46462003E33BF /* Assets.xcassets */; };
 		518A0B8E1CD46462003E33BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518A0B8C1CD46462003E33BF /* LaunchScreen.storyboard */; };
 		518A0BA41CD46462003E33BF /* Objective_C_BDD_SampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 518A0BA31CD46462003E33BF /* Objective_C_BDD_SampleUITests.m */; };
+		51D9712C1CD46BFE009AF02F /* UserManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 51D9712B1CD46BFE009AF02F /* UserManager.mm */; };
+		51D9712E1CD46FB6009AF02F /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D9712D1CD46FB6009AF02F /* UserManager.m */; };
+		51D9712F1CD46FB6009AF02F /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D9712D1CD46FB6009AF02F /* UserManager.m */; };
+		51D971321CD48679009AF02F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D971311CD48679009AF02F /* CoreData.framework */; };
+		51D971351CD48694009AF02F /* MyModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51D971331CD48694009AF02F /* MyModel.xcdatamodeld */; };
+		51D971361CD48694009AF02F /* MyModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51D971331CD48694009AF02F /* MyModel.xcdatamodeld */; };
 		6ED8E3B7A6A60F45BB7B4078 /* libPods-Objective C BDD SampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0220C37F5351B89122DCEB /* libPods-Objective C BDD SampleUITests.a */; };
 		93220DE6F10B93821A975478 /* libPods-Objective C BDD Sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFBDCC2D03B35FC6FB57A98 /* libPods-Objective C BDD Sample.a */; };
 		E852696D2B95D076115F8AE9 /* libPods-Objective C BDD SampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D996099E15C84351F178FE7 /* libPods-Objective C BDD SampleTests.a */; };
@@ -40,7 +45,6 @@
 
 /* Begin PBXFileReference section */
 		3A0220C37F5351B89122DCEB /* libPods-Objective C BDD SampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Objective C BDD SampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		510801DD1CD465C400D28C19 /* MudSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MudSpec.mm; sourceTree = "<group>"; };
 		518A0B781CD46462003E33BF /* Objective C BDD Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective C BDD Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		518A0B7C1CD46462003E33BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		518A0B7E1CD46462003E33BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +62,11 @@
 		518A0B9F1CD46462003E33BF /* Objective C BDD SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective C BDD SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		518A0BA31CD46462003E33BF /* Objective_C_BDD_SampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objective_C_BDD_SampleUITests.m; sourceTree = "<group>"; };
 		518A0BA51CD46462003E33BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51D9712B1CD46BFE009AF02F /* UserManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UserManager.mm; sourceTree = "<group>"; };
+		51D9712D1CD46FB6009AF02F /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserManager.m; path = "Objective C BDD Sample/UserManager.m"; sourceTree = SOURCE_ROOT; };
+		51D971301CD47001009AF02F /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserManager.h; path = "Objective C BDD Sample/UserManager.h"; sourceTree = SOURCE_ROOT; };
+		51D971311CD48679009AF02F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		51D971341CD48694009AF02F /* MyModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyModel.xcdatamodel; sourceTree = "<group>"; };
 		5E1D52163022988471A05FC6 /* Pods-Objective C BDD SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objective C BDD SampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Objective C BDD SampleUITests/Pods-Objective C BDD SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		718CAD6A3E397D62DE149067 /* Pods-Objective C BDD SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objective C BDD SampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Objective C BDD SampleTests/Pods-Objective C BDD SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		85DDA826665598DB1B2D493D /* Pods-Objective C BDD Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objective C BDD Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Objective C BDD Sample/Pods-Objective C BDD Sample.release.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D971321CD48679009AF02F /* CoreData.framework in Frameworks */,
 				93220DE6F10B93821A975478 /* libPods-Objective C BDD Sample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -112,6 +122,7 @@
 		518A0B6F1CD46462003E33BF = {
 			isa = PBXGroup;
 			children = (
+				51D971331CD48694009AF02F /* MyModel.xcdatamodeld */,
 				518A0B7A1CD46462003E33BF /* Objective C BDD Sample */,
 				518A0B971CD46462003E33BF /* Objective C BDD SampleTests */,
 				518A0BA21CD46462003E33BF /* Objective C BDD SampleUITests */,
@@ -134,6 +145,8 @@
 		518A0B7A1CD46462003E33BF /* Objective C BDD Sample */ = {
 			isa = PBXGroup;
 			children = (
+				51D9712D1CD46FB6009AF02F /* UserManager.m */,
+				51D971301CD47001009AF02F /* UserManager.h */,
 				518A0B7E1CD46462003E33BF /* AppDelegate.h */,
 				518A0B7F1CD46462003E33BF /* AppDelegate.m */,
 				518A0B811CD46462003E33BF /* FirstViewController.h */,
@@ -161,7 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				518A0B9A1CD46462003E33BF /* Info.plist */,
-				510801DD1CD465C400D28C19 /* MudSpec.mm */,
+				51D9712B1CD46BFE009AF02F /* UserManager.mm */,
 			);
 			path = "Objective C BDD SampleTests";
 			sourceTree = "<group>";
@@ -178,6 +191,7 @@
 		DEFFE9A873A18573AB7F474A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				51D971311CD48679009AF02F /* CoreData.framework */,
 				DDFBDCC2D03B35FC6FB57A98 /* libPods-Objective C BDD Sample.a */,
 				8D996099E15C84351F178FE7 /* libPods-Objective C BDD SampleTests.a */,
 				3A0220C37F5351B89122DCEB /* libPods-Objective C BDD SampleUITests.a */,
@@ -449,8 +463,10 @@
 			files = (
 				518A0B861CD46462003E33BF /* SecondViewController.m in Sources */,
 				518A0B801CD46462003E33BF /* AppDelegate.m in Sources */,
+				51D9712E1CD46FB6009AF02F /* UserManager.m in Sources */,
 				518A0B831CD46462003E33BF /* FirstViewController.m in Sources */,
 				518A0B7D1CD46462003E33BF /* main.m in Sources */,
+				51D971351CD48694009AF02F /* MyModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,7 +474,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				510801DE1CD465C400D28C19 /* MudSpec.mm in Sources */,
+				51D9712F1CD46FB6009AF02F /* UserManager.m in Sources */,
+				51D9712C1CD46BFE009AF02F /* UserManager.mm in Sources */,
+				51D971361CD48694009AF02F /* MyModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,6 +723,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		51D971331CD48694009AF02F /* MyModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				51D971341CD48694009AF02F /* MyModel.xcdatamodel */,
+			);
+			currentVersion = 51D971341CD48694009AF02F /* MyModel.xcdatamodel */;
+			path = MyModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 518A0B701CD46462003E33BF /* Project object */;
 }
