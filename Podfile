@@ -9,6 +9,7 @@ end
 
 target 'Objective C BDD SampleTests' do
     pod 'Cedar'
+    pod 'Nocilla'
 end
 
 target 'Objective C BDD SampleUITests' do
